@@ -1,4 +1,4 @@
-### Setup TK1
+### Software setup in Jetson boards(TK1/TX1,2)
 
 #### 1. [Jetson TK/TX Development pack 2.0](https://developer.nvidia.com/embedded/jetson-development-pack)
 Nvidia Linux4Tegra software packages for TK1/TX1/TX2
