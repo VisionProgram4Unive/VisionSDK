@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SobelEdge</class>
+ <widget class="QWidget" name="SobelEdge">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>290</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QCheckBox" name="window">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>320</y>
+     <width>81</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>window</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>13</y>
+     <width>261</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Value</string>
+   </property>
+   <widget class="QPushButton" name="ordrX">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>32</y>
+      <width>86</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>dx</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ordrY">
+    <property name="geometry">
+     <rect>
+      <x>149</x>
+      <y>33</y>
+      <width>86</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>dy</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Image Type</string>
+   </property>
+   <widget class="QRadioButton" name="image_color_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>24</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Color</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="image_grey_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>24</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Grey</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
