@@ -1,7 +1,7 @@
 ### Setup TK1
 
-#### 1. [Jetson TK1 Development pack 2.0](https://developer.nvidia.com/embedded/jetson-development-pack)
-Nvidia Linux4Tegra software packages for TK1/TX1
+#### 1. [Jetson TK/TX Development pack 2.0](https://developer.nvidia.com/embedded/jetson-development-pack)
+Nvidia Linux4Tegra software packages for TK1/TX1/TX2
 
 * OS(Ubuntu 14.04)
 * Libraries
